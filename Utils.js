@@ -12,7 +12,7 @@ module.exports = class  {
     }
   
     static throwForNegatives(negatives) {
-      throw new Error(`Negatives not allowed: ${negatives.join(', ')}`);
+      throw new Error(`negative numbers not allowed: ${negatives.join(', ')}`);
     }
   }
   
