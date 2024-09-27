@@ -9,3 +9,8 @@ test('should return the number for a single number', () => {
   const calculator = new StringCalculator();
   expect(calculator.add('1')).toBe(1);
 });
+
+test('should handle comma and newline delimiters', () => {
+    const calculator = new StringCalculator();
+    expect(calculator.add('1,2\n3')).toBe(6);
+  });
