@@ -19,3 +19,8 @@ test('should handle custom delimiters', () => {
     const calculator = new StringCalculator();
     expect(calculator.add('//;\n1;2;3')).toBe(6);
 });
+
+test('should handle custom delimiters', () => {
+    const calculator = new StringCalculator();
+    expect(calculator.add('//;\n')).toBe(0);
+});

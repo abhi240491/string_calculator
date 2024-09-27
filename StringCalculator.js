@@ -18,6 +18,10 @@ class StringCalculator {
       numbers = remainingNumbers;
     }
 
+    if (this.isEmpty(numbers)) {
+        return 0;
+    }
+
     const numArray = numbers.split(delimiter);
     return this.calculateSum(numArray);
     }
@@ -25,6 +29,10 @@ class StringCalculator {
     hasCustomDelimiter(numbers) {
         return numbers.startsWith('//');
     }
+
+    isEmpty(numbers) {
+        return numbers === '';
+      }
   
     extractCustomDelimiter(numbers) {
         const delimiterDeclarationEnd = numbers.indexOf('\n');
