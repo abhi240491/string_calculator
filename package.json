@@ -1,0 +1,22 @@
+{
+  "name": "string_calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhi240491/string_calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhi240491/string_calculator/issues"
+  },
+  "homepage": "https://github.com/abhi240491/string_calculator#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
